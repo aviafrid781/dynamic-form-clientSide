@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 import phone from '../../../images/smartphone.png'
 import bike from '../../../images/motorbike.png'
 import taxi from '../../../images/taxi.png'
+import dining from '../../../images/dining-table.png'
 
 const ShowInsertData = () => {
     return (
@@ -10,9 +11,9 @@ const ShowInsertData = () => {
 
             <NavLink to='furnituresData'  className='d-flex justify-content-center col-md-4 text-decoration-none align-items-center'>
                 
-                    <img src={phone} alt="" srcset="" style={{ width: '25%' }} />
-                    <div style={{lineHeight:'8px'}}>
-                    <p className='text-dark '>Phone</p>
+                    <img src={dining} alt="" srcset="" style={{ width: '25%' }} />
+                    <div style={{lineHeight:'8px'}} className='ms-2'>
+                    <p className='text-dark '>Furniture </p>
                     <span style={{fontSize:'12px',color:'gray'}}>85,960 ads</span>
                     </div>
                 

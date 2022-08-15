@@ -19,16 +19,17 @@ const BikesData = () => {
             <h1>Bikes Data</h1>
 
          {
-            data.map(dt=> <div class="card mb-3 col-md-4 container" style={{width:'30%'}}  >
+            data.map(dt=> <div class="card mb-3 col-md-4 container" style={{width:'50%'}}  >
             <div class="row g-0">
                 <div class="col-md-4">
                     <img src={dt.img} class="img-fluid rounded-start w-100" alt="..." />
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
-                        <h5 class="card-title">{dt.brand}</h5>
+                        <h5 class="card-title">Brand:{dt.brand}</h5>
                         <p class="card-text"> Price: ${dt.price}</p>
-                        <p class="card-text"><small class="text-muted">{dt.model}</small></p>
+                        <p class="card-text"><small class="text-muted">model:{dt.model}</small></p>
+                        <p class="card-text"><small class="text-muted">condition:{dt.condition}</small></p>
                     </div>
                 </div>
             </div>
