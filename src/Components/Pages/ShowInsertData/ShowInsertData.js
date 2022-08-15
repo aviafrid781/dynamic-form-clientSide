@@ -31,7 +31,7 @@ const ShowInsertData = () => {
          
                 <img src={taxi} alt="" srcset="" style={{ width: '25%' }} />
                 <div className='ms-2' style={{lineHeight:'8px'}}>
-                    <p className='text-dark '>Car</p>
+                    <p className='text-dark'>Car</p>
                     <span style={{fontSize:'12px',color:'gray'}}>85,960 ads</span>
                     </div>
            

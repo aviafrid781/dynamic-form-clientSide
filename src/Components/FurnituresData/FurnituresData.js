@@ -5,7 +5,7 @@ const FurnituresData = () => {
     const [data,setData]=useState([])
 
     useEffect(() => {
-        fetch("http://localhost:5000/furnitures")
+        fetch("https://sleepy-scrubland-41147.herokuapp.com/furnitures")
             .then(res => res.json())
             .then(data => setData(data))
     }, [])

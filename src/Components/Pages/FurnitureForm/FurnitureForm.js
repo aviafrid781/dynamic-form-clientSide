@@ -12,7 +12,7 @@ const FurnitureForm = () => {
         console.log(data);
         //use axios for post API
 
-        axios.post('http://localhost:5000/furnitures', data)
+        axios.post('https://sleepy-scrubland-41147.herokuapp.com/furnitures', data)
             .then(res => {
                 if (res.data.insertedId) {
                     alert('added Successfully');

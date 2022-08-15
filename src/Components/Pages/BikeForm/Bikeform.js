@@ -25,7 +25,7 @@ const Bikeform = () => {
 
     const onSubmit = data => {
 
-        fetch("http://localhost:5000/bikes", {
+        fetch("https://sleepy-scrubland-41147.herokuapp.com/bikes", {
             method: "POST",
             headers: { "content-type": "application/json" },
             body: JSON.stringify(data),
